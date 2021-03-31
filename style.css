@@ -11,17 +11,17 @@
   list-style-position: inside;
 }
 
+.wrapper >ol {
+  display: inline-block;
+  list-style-position: inside;
+}
 
-
-body {
+body, main {
   background:#7CA5B8;
 }
 
 header {
   margin-top: -20px;
-  margin-right: -10px;
-  margin-left: -10px;
-  text-align: center;
   background:#1D2D44;
   color:#EFD9CE;
 }
@@ -36,22 +36,54 @@ h1 {
 nav {
   background: #EFD9CE;
   text-align: right;
-  font-size: 24px;
-  color: #7CA5B8;
 }
-
-main {
-  background:#7CA5B8;
-}
-
-
 
 header h3 {
   font-family: monospace;
-  font-size: 24px;
   padding-bottom: 0;
 }
 
-article {
+header, article {
   text-align: center;
 }
+
+nav, header h3 {
+  font-size: 24px;
+}
+
+article {
+  font-size: 18px;
+}
+
+a:link {
+  color: #1D2D44;
+}
+
+article a:link {
+  color: black;
+  font-size: 25px;
+}
+a:visited{
+  color: #1D2D44;
+}
+a:hover {
+  color:  darkorchid;
+}
+a:active{
+  color: fuchsia;
+}
+
+footer {
+  background: #1D2D44;
+  padding: 30px;
+  margin-bottom: -20px;
+  }
+
+header, footer {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  a[href^="mailto:"]{
+    color: #1D2D44;
+  }

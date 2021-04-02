@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <!-- the section below contains all of the meta tags for the browser to know how to display the information contained in this file. This includes character set and page width. It also contains a link to an icon image and page title to display within the browser tab. -->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,7 @@
     <header>
       <h1>Matthew Gammon</h1>
       <h3>Web Dev Student</h3>
-      
+      <!-- the nav bar contains two buttons that when clicked, scroll the page down to the corresponding section. This isn't super function on a small page like this, but can be very useful in larger pages.-->
       <nav>
         <a href="#about-me" class="button"> About Me </a>
           <a href="#contact-me" class="button"> Contact Info </a>
@@ -22,9 +23,10 @@
     </header>
 
     <main>
+      <!-- This section pulls an image from the images folder, provides text to display in case the image fails to show, sets the width of the image and centers it within the page. -->
       <img src="images/matthew-firetower.jpg" alt="Matthew Looking Out From Firetower" width="650px" class="image-center">
       <article>
-        <h2 id="about-me">An Introduction:</h2>
+        <h2 id="about-me">An Introduction</h2>
         <p>My name is <b>Matthew Gammon</b> and I am web development student living in <b>Norway, Maine.</b></p>
         <br>
 
@@ -36,6 +38,7 @@
         <p>Seeing what I am able to create on my own has me excited to see what is possible when collaborating with others.</p>
         <p>I look forward to working with other members of my cohort to create interesting, organized, and visually appealing projects!</p>
         <p>Web development is my newest interest, but I have many others including:</p>
+        <!-- creates an unordered list (to be displayed with bullet points)-->
        <ul>
           <li>Listening to music and attending concerts. My favorite genres are progressive metal and progressive rock.</li>
           <li>Physical fitness such as hiking, running, and cycling.</li>
@@ -48,9 +51,12 @@
         <div id="contact-me">
         <h2>Contact Me</h2>
         <p>Feel free to view the profiles below and reach out or follow me.</p>
+        <!-- creates an ordered list with numbers that ascend with each list item -->
           <ol>
+            <!-- the next two list items are links that open in a new tab, appear bold, and are semantically important -->
             <li><a href="https://www.linkedin.com/in/matthew-gammon-955b0720a/" target="_blank"><strong>LinkedIn</strong></a></li>
             <li><a href="https://github.com/MatthewGammon" target="_blank"><strong>GitHub</strong></a></li>
+            <!-- the next list item opens (or prompts to open) the user's default email and inputs my personal email into the send bar -->
             <li><a href="mailto:mgammon91@gmail.com"><strong>Email Me</strong></a></li>
             </ol>
             </article>

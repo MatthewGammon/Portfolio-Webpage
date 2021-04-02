@@ -40,7 +40,7 @@ nav a {
   text-decoration: none;
 }
 
-header h3 {
+header h2 {
   font-family: monospace;
   font-size: 28px;
 }
@@ -61,11 +61,12 @@ article {
   font-size: 20px;
 }
 /* centers text in all paragraphs in the article element and all h2 elements */
-article p, h2 {
+article p, h3 {
   text-align: center;
 }
+
 h3 {
-  font-size: 26px;
+  font-size: 30px;
 }
 /* these next five all deal with links. Giving them default colors and colors to display when hovered over, clicked, and after they have been visited. */
 nav a:visited {
@@ -87,6 +88,8 @@ article a:active{
 }
 
 footer {
+  text-align: right;
+  color:azure;
   background: #1D2D44;
   padding: 40px;
   margin-bottom: -20px;

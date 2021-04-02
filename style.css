@@ -1,17 +1,3 @@
-.image-center {
-  padding: 50px;
-  display: block;
-  margin-top: 50px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.left-align >ol {
-  display: inline-block;
-  list-style-position: inside;
-  text-align: left;
-}
-
 body {
   background:#7CA5B8;
 }
@@ -20,6 +6,7 @@ header {
   margin-top: -35px;
   background:#1D2D44;
   color:#EFD9CE;
+  text-align: center;
 }
 
 h1 {
@@ -30,44 +17,65 @@ h1 {
 }
 
 nav {
-  background: #EFD9CE;
+  background-color: steelblue;
   text-align: right;
+  height: 50px;
+  padding: 5px;
 }
 
-header h2 {
-  font-family: monospace;
-}
-
-header{
+.button {
+  background-color:whitesmoke;
+  border: black solid 2px;
+  padding: 10px;
   text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 6px;
 }
 
-nav, header h2 {
-  font-size: 24px;
+nav a {
+  color: #1D2D44;
+  text-decoration: none;
+}
+
+header h3 {
+  font-family: monospace;
+  font-size: 28px;
+}
+
+.image-center {
+  padding: 50px;
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 article {
   width: 600px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
-  font-size: 18px;
-  text-align: center;
+  font-size: 20px;
 }
 
+article p, h2 {
+  text-align: center;
+}
+h3 {
+  font-size: 26px;
+}
 nav a:visited {
   color: #1D2D44;
 }
 
-section a {
-  text-align: left;
-}
 article a:link {
   color: #1D2D44;
-  font-size: 25px;
+  font-size: 22px;
+  text-decoration: none;
 }
 article a:visited {
-  color:  #2176FF;
+  color: blueviolet;
 }
 article a:hover {
   color:  darkorchid;
@@ -78,7 +86,7 @@ article a:active{
 
 footer {
   background: #1D2D44;
-  padding: 30px;
+  padding: 40px;
   margin-bottom: -20px;
   }
 

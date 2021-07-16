@@ -3,6 +3,11 @@
 
 ## Project Information
 **This is my Portfolio Webpage for my final assignment in the Thinkful Software Engineering Prep Course.**
+This project makes use of HTML and CSS to create a basic web page that is not responsive. 
+
+### Project Goals
+This project will be left alone as a reference for future progress. 
+Any future projects should incoporate a mobile first approach and be fully responsive. 
 
 ---
 
